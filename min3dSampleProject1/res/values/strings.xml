@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">min3D OpenGL examples</string>
+    <string name="splashTitle">Alle hier gelisteten Activities wurden mit min3D erstellt - Victor</string>
+    <string name="projectUrl">http://code.google.com/p/min3d</string>
+    <string name="myBlogUrl">http://www.zeropointnine.com/blog</string>
+</resources>  
