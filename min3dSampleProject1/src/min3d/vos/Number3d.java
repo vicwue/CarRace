@@ -1,7 +1,5 @@
 package min3d.vos;
 
-import min3d.core.Object3d;
-
 /**
  * Simple VO holding x,y, and z values. Plus helper math functions.
  * Care should be taken to avoid creating Number3d instances unnecessarily. 
@@ -85,6 +83,7 @@ public class Number3d
 		return (float) Math.sqrt( this.x*this.x + this.y*this.y + this.z*this.z );
 	}
 	
+	@Override
 	public Number3d clone()
 	{
 		return new Number3d(x,y,z);

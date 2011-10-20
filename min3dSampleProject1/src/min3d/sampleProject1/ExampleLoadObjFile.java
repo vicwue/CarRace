@@ -1,8 +1,6 @@
 package min3d.sampleProject1;
 
 import android.view.*;
-import min3d.Shared;
-import min3d.Utils;
 import min3d.objectPrimitives.*;
 import min3d.core.Object3dContainer;
 import min3d.core.RendererActivity;
@@ -85,6 +83,7 @@ public class ExampleLoadObjFile extends RendererActivity {
 		
 	
 	}
+	@Override
 	public boolean onTouchEvent(MotionEvent $e) {
 		
 		width = display.getWidth();

@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Calendar;
-import java.util.HashMap;
 import java.util.StringTokenizer;
 
 import min3d.Min3d;
@@ -132,6 +131,7 @@ public class ObjParser extends AParser implements IParser {
 		Log.d(Min3d.TAG, "End time " + (endTime - startTime));
 	}
 
+	@Override
 	public Object3dContainer getParsedObject() {
 		Log.d(Min3d.TAG, "Start object creation");
 		Object3dContainer obj = new Object3dContainer(0, 0);

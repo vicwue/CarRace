@@ -34,7 +34,7 @@ public class Rectangle extends Object3dContainer
 			for (col = 0; col <= $segsW; col++)
 			{
 				this.vertices().addVertex(
-					(float)col*w - width5, (float)row*h - height5,z,	
+					col*w - width5, row*h - height5,z,	
 					(float)col/(float)$segsW, 1 - (float)row/(float)$segsH,	
 					0,0,1f,	
 					color.r, color.g, color.b, color.a
@@ -86,7 +86,7 @@ public class Rectangle extends Object3dContainer
 			ergebnis.direction = (int) Math.round((Math.random())); //0 righttoleft 1 lefttoright
 			ergebnis.size = (int) Math.round((Math.random()*3)); // scale 0-3
 			
-			ergebnis.spawntime = (float) System.currentTimeMillis();
+			ergebnis.spawntime = System.currentTimeMillis();
 			return ergebnis;	
 		}
 
